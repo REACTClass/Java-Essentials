@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class DollarGame {
     public static void main(String[] args) {
 
+        System.out.println("Welcome to 'Change for a Dollar' \n The objective of this game is to enter an amount of pennies, nickles, dimes and quarts that totals $1.00");
         double pennies;
         Scanner scanner = new Scanner(System.in);
         System.out.println("How many pennies would you like?");
@@ -24,7 +25,7 @@ public class DollarGame {
 
         double totalPennies = pennies * 0.01;
         double totalNickles = nickles * .05;
-        double totalDimes = dimes * 0.1;
+        double totalDimes = dimes * 0.10;
         double totalQuarters = quarters * 0.25;
 
         double total = totalPennies + totalNickles + totalDimes + totalQuarters;
