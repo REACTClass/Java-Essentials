@@ -16,7 +16,7 @@ public class RollTheDie {
 
         System.out.println("Welcome to Roll the Die! Let's begin...");
 
-        for(int i = 5; i < maxRolls; i--) {
+        for(int i = 1; i <= maxRolls; i++) {
             int die = random.nextInt(6) + 1;
             currentSpace = currentSpace + die;
 
